@@ -11,10 +11,10 @@ class exibirDesconto
     nome = Convert.ToString(Console.ReadLine());
 
     Console.WriteLine("Digite o preço do seu produto");
-    preco = Convert.ToInt32(Console.ReadLine());
+    preco = Convert.ToDouble(Console.ReadLine());
 
     Console.WriteLine("O desconto do produto é de");
-    desconto = Convert.ToInt32(Console.ReadLine());
+    desconto = Convert.ToDouble(Console.ReadLine());
 
     if(desconto == 0) {
       Console.WriteLine("O " + nome + " o valor do produto foi " + preco);

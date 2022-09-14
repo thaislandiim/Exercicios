@@ -5,5 +5,5 @@ desconto = input("Digite o desconto: ")
 if desconto == 0:
   print(f"O valor do {nome} foi de {preco}")
 else:
-  total = int(preco) - (int(preco) * (int(desconto) / 100))
+  total = float(preco) - (float(preco) * (float(desconto) / 100))
   print(f"O valor total da compra foi de {total}")

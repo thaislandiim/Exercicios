@@ -11,12 +11,12 @@ class mostrarCompra
     nome = Convert.ToString(Console.ReadLine());
 
     Console.WriteLine("Digite o preço do seu produto");
-    preco = Convert.ToInt32(Console.ReadLine());
+    preco = Convert.ToDouble(Console.ReadLine());
 
     Console.WriteLine("Digite a quantidade de produtos");
-    quantidade = Convert.ToInt32(Console.ReadLine());
+    quantidade = Convert.ToDouble(Console.ReadLine());
 
-    if(quantidade == 0) {
+    if(quantidade == 1) {
       Console.WriteLine("O " + nome + " o valor do produto foi " + preco);
     }
     else {

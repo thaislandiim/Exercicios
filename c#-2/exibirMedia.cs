@@ -18,13 +18,13 @@ class exibirMedia
     Console.WriteLine("Digite quarta nota");
     n4 = Convert.ToInt32(Console.ReadLine());
 
-    media = n1 + n2 + n3 + n4;
-    total = media / 4;
+    total = n1 + n2 + n3 + n4;
+    media = total / 4;
 
-    if(total >=6) {
+    if(media >=6) {
       Console.WriteLine("Você foi aprovado");
     }
-    else if (total >= 4 && total <= 6) {
+    else if (media >= 4) {
       Console.WriteLine("Você está de recuperação");
     }
     else {
